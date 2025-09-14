@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Payment;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Log;
 
 class CheckoutController extends Controller
 {
@@ -14,7 +15,7 @@ class CheckoutController extends Controller
         ];
 
         $user = [
-            'name' => 'John Doe',
+            'name' => 'John Denver',
             'email' => 'john@example.com'
         ];
 
