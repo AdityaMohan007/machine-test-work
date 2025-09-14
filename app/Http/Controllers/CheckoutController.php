@@ -3,8 +3,10 @@
 namespace App\Http\Controllers;
 
 use App\Models\Payment;
+use App\Notifications\PaymentSuccessNotification;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Facades\Notification;
 
 class CheckoutController extends Controller
 {
@@ -89,6 +91,15 @@ class CheckoutController extends Controller
             'transaction_id' => $paymentIntent->id, // pi_XXXXXXXX
             'status' => $paymentIntent->status,    // succeeded, processing, etc.
         ]);
+
+        // Email customer after payment
+        Notification::route('mail', $metaData->customer_email)
+            ->notify(new PaymentSuccessNotification([
+                'customer_name'  => $metaData->customer_name,
+                'amount'         => $metaData->amount,
+                'transaction_id' => $paymentIntent->id,
+                'status'         => $paymentIntent->status,
+            ]));
 
         return view('success')->with([
             'transactionId' => $paymentIntent->id,

@@ -55,19 +55,23 @@
 
 9. When checkout tab is clicked, checkout page is shown.
    
-    <img width="1210" height="649" alt="image" src="https://github.com/user-attachments/assets/53ba2830-06ce-4038-8e7e-3b289c2125ad" />
+    <img width="1210" height="649" alt="image" src="https://github.com/user-attachments/assets/53ba2830-06ce-4038-8e7e-3b289c2125ad" /> <br /> <br />
 
 
 10. When "Pay Now" button is clicked, it is redirected the payment gateway page (mastercard test card credentials used).
     
-    <img width="1144" height="615" alt="image" src="https://github.com/user-attachments/assets/d3cfa0c2-a78d-415b-b089-19937e549641" />
+    <img width="1144" height="615" alt="image" src="https://github.com/user-attachments/assets/d3cfa0c2-a78d-415b-b089-19937e549641" /> <br />
 
-    <img width="1142" height="612" alt="image" src="https://github.com/user-attachments/assets/932d98c4-8034-4698-8ac9-6f2ab3bcf01c" />
+    <img width="1142" height="612" alt="image" src="https://github.com/user-attachments/assets/932d98c4-8034-4698-8ac9-6f2ab3bcf01c" /> <br /> <br />
 
 
 11. After payment is completed without errors, user is redirected to the success page with customer details and transaction ID.
     
-    <img width="1201" height="644" alt="image" src="https://github.com/user-attachments/assets/c3b0ff3f-26f4-4113-8733-116474142732" />
+    <img width="1201" height="644" alt="image" src="https://github.com/user-attachments/assets/c3b0ff3f-26f4-4113-8733-116474142732" /> <br /> <br />
+
+12. An email is send to the customer if the payment is successful.
+
+    <img width="1127" height="576" alt="image" src="https://github.com/user-attachments/assets/68b0cf94-67c7-4805-a3ee-6e68632b6e61" />
 
  
 
