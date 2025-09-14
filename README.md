@@ -4,7 +4,7 @@
 
 1. Clone the project repository.
     ```
-    https://github.com/AdityaMohan007/machine-test-app.git
+    https://github.com/AdityaMohan007/machine-test-work.git
     ```
 
 2. Install dependencies.
