@@ -55,7 +55,7 @@
 
 9. When checkout tab is clicked, checkout page is shown.
    
-    <img width="1203" height="649" alt="image" src="https://github.com/user-attachments/assets/7e43e2bb-d415-4ecd-ab9e-4f3adbb84095" />
+    <img width="1210" height="649" alt="image" src="https://github.com/user-attachments/assets/53ba2830-06ce-4038-8e7e-3b289c2125ad" />
 
 
 10. When "Pay Now" button is clicked, it is redirected the payment gateway page (mastercard test card credentials used).
@@ -67,7 +67,8 @@
 
 11. After payment is completed without errors, user is redirected to the success page with customer details and transaction ID.
     
-    <img width="1203" height="653" alt="image" src="https://github.com/user-attachments/assets/c6c31de7-2dcb-4e7e-a1b3-bae8210d6590" />
+    <img width="1201" height="644" alt="image" src="https://github.com/user-attachments/assets/c3b0ff3f-26f4-4113-8733-116474142732" />
+
  
 
     
